@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mealItem_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardView_padding"
+    tools:context=".MealItem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mealItem_imageView"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/mealItemTitle_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_toRightOf="@id/mealItem_imageView"
+            android:layout_toEndOf="@id/mealItem_imageView" />
+
+        <TextView
+            android:id="@+id/mealItemDescription_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_toRightOf="@id/mealItem_imageView"
+            android:layout_below="@id/mealItemTitle_textView"
+            android:layout_toEndOf="@id/mealItem_imageView" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

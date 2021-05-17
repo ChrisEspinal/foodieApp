@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MP5_FoodieApp</string>
+    <string name="alertDialogMessage">Proceder a Remover Comida?</string>
+    <string name="alertDialogN">No</string>
+    <string name="alertDialogP">Sí</string>
+    <string name="alertDialogTitle">Confirmacion de Eliminación</string>
+    <string name="caloriesLabel">Calorías:</string>
+    <string name="foodDescriptionLabel">Descripción:</string>
+    <string name="foodTitleLabel">Nombre de Comida:</string>
+    <string name="headerAddItem">Nueva Comida</string>
+    <string name="ingredientsLabel">Ingredientes:</string>
+    <string name="mealDescription0">" Salmón a la parrilla tailandés con salsa de chile dulce casero y fácil de cocinar hasta que esté caramelizado en la parte superior y jugoso por dentro. Cena rápida y saludable de 30 minutos."</string>
+    <string name="mealDescription1">\"Eveything seasoning\" está en tendencia en todo Estados Unidos. Aunque puede haber debutado en bagels, es una mezcla tan sabrosa, multipropósito y sabe muy bien en casi todo, incluidos los huevos rellenos.</string>
+    <string name="mealDescription2">" Uno de los favoritos de nuestra familia, también es excelente cuando se hace con carne de cangrejo en lugar de camarones."</string>
+    <string name="mealDescription3">Delicioso y muy fácil de hacer. Puede usar de 3 a 4 tazas de caldo de pollo en lugar de los cubos de agua y caldo. También funciona bien con la mitad de queso crema si no lo quieres demasiado rico.</string>
+    <string name="mealDescription4">Esto es similar a la receta de alitas calientes que se sirve en una popular cadena de restaurantes. Si alguna vez los has tenido, debes amarlos.</string>
+    <string name="mealDescription5">" Esta mini versión del clásico Red Velvet Cake es una de las ofertas más populares en las panaderías de todo el país. Prepare un lote esta temporada de vacaciones o en cualquier momento del año."</string>
+    <string name="mealTitle0">Salmón Asado Tailandés</string>
+    <string name="mealTitle1">\"Everything\" Huevos Rellenos</string>
+    <string name="mealTitle2">"Camarones Cremosos al Pesto "</string>
+    <string name="mealTitle3">Sopa de Calabaza</string>
+    <string name="mealTitle4">Alitas de Pollo Búfalo Estilo Restaurante</string>
+    <string name="mealTitle5">Pastelitos de Terciopelo Rojo</string>
+    <string name="meanIngredients0">" 6x6 oz de filetes de salmón salvaje (sin piel), pizca de sal, 1/2 taza + 2 cucharadas de salsa de chile dulce tailandés (dividido), 2–3 cucharadas de cebolla verde (finamente picada), spray para cocinar"</string>
+    <string name="meanIngredients1">6 huevos grandes, 2 cucharadas de yogur griego sin grasa, 1 cucharadita de mostaza amarilla preparada, 1 cucharadita de vinagre blanco, 1/2 cucharadita de salsa Worcestershire, 1/4 cucharadita de azúcar blanca, 1/4 cucharadita de sazonador de bagels o al gusto, 1 cucharadita de cebolleta verde en rodajas</string>
+    <string name="meanIngredients2">"1 libra de pasta linguini, 1/2 taza de mantequilla, 2 tazas de crema espesa, 1/2 cucharadita de pimienta negra molida, 1 taza de queso parmesano rallado, 1/3 taza de pesto, 1 libra de camarones grandes, pelados y desvenados "</string>
+    <string name="meanIngredients3">6 cucharadas de cebolla picada, 4 cucharadas de margarina, 6 tazas de calabaza pelada y en cubitos, 3 tazas de agua, 4 cubitos de caldo de pollo</string>
+    <string name="meanIngredients4">1/2 taza de harina para todo uso, 1/4 cucharadita de pimentón, 1/4 cucharadita de pimienta de cayena, 1/4 cucharadita de sal, 10 alitas de pollo, 1 cuarto de aceite para freír, 1/4 taza de mantequilla, 1/4 taza caliente salsa, 1 pizca de pimienta negra molida, 1 pizca de ajo en polvo</string>
+    <string name="meanIngredients5">2 1/2 tazas de harina, 1/2 taza de cacao en polvo sin azúcar, 1 cucharadita de bicarbonato de sodio, 1/2 cucharadita de sal, 1 taza de mantequilla, ablandada, 2 tazas de azúcar, 4 huevos, 1 taza de crema agria, 1/2 taza de leche</string>
+    <string name="submitBtnText">Agregar a La Lista</string>
+</resources>

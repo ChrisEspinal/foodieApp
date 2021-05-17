@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name" translatable="false">FoodieApp</string>
+
+    <array name="mealImages">
+        <item>@drawable/meal0</item>
+        <item>@drawable/meal1</item>
+        <item>@drawable/meal2</item>
+        <item>@drawable/meal3</item>
+        <item>@drawable/meal4</item>
+        <item>@drawable/meal5</item>
+    </array>
+
+    <string name="mealTitle0">Thai Broiled Salmon</string>
+    <string name="mealTitle1">Everything Deviled Eggs</string>
+    <string name="mealTitle2">Creamy Pesto Shrimp</string>
+    <string name="mealTitle3">Butternut Squash Soup</string>
+    <string name="mealTitle4">Restaurant-Style Buffalo Chicken Wings</string>
+    <string name="mealTitle5">Red Velvet Cupcakes</string>
+
+    <string-array name="mealTitles">
+        <item>@string/mealTitle0</item>
+        <item>@string/mealTitle1</item>
+        <item>@string/mealTitle2</item>
+        <item>@string/mealTitle3</item>
+        <item>@string/mealTitle4</item>
+        <item>@string/mealTitle5</item>
+    </string-array>
+
+    <string name="mealDescription0">Thai Broiled Salmon with easy homemade sweet chili sauce cooked until caramelized on top and juicy inside. Quick and healthy 30 minute dinner.</string>
+    <string name="mealDescription1">Everything seasoning is trending all over the United States. Although it may have made its debut on bagels, it\'s such a flavorful, multi-purpose blend and tastes so good on just about "everything," including deviled eggs.</string>
+    <string name="mealDescription2">"One of our family's favorites, it's also great when made with crab meat instead of the shrimp."</string>
+    <string name="mealDescription3">"Delicious and very easy to make. You can use 3 to 4 cups of chicken broth instead of the water and bouillon cubes. Also works well with half as much cream cheese if you don't want it too rich."</string>
+    <string name="mealDescription4">This is similar to the hot wings recipe served at a popular restaurant chain. If you have ever had them, you have to love them.</string>
+    <string name="mealDescription5">"This mini version of the classic Red Velvet Cake is one of the more popular offerings in bakeries all across the country. Whip up a batch this holiday season or anytime of the year."</string>
+
+    <string-array name="mealDescriptions">
+        <item>@string/mealDescription0</item>
+        <item>@string/mealDescription1</item>
+        <item>@string/mealDescription2</item>
+        <item>@string/mealDescription3</item>
+        <item>@string/mealDescription4</item>
+        <item>@string/mealDescription5</item>
+    </string-array>
+
+    <string name="meanIngredients0">6x6 oz wild salmon fillets (skin on/off), pinch of salt, 1/2 cup + 2 tbsp Thai sweet chili sauce (divided), 2–3 tbsp green onions (finely chopped), cooking spray</string>
+    <string name="meanIngredients1">6 large eggs, 2 tablespoons full-fat plain Greek yogurt, 1 teaspoon prepared yellow mustard, 1 teaspoon white vinegar, 1/2 teaspoon Worcestershire sauce, 1/4 teaspoon white sugar, 1/4 teaspoon everything bagel seasoning, or to taste, 1 teaspoon sliced scallion greens</string>
+    <string name="meanIngredients2">1 pound linguine pasta, 1/2 cup butter, 2 cups heavy cream, 1/2 teaspoon ground black pepper, 1 cup grated Parmesan cheese, 1/3 cup pesto, 1 pound large shrimp, peeled and deveined</string>
+    <string name="meanIngredients3">6 tablespoons chopped onion, 4 tablespoons margarine, 6 cups peeled and cubed butternut squash, 3 cups water, 4 cubes chicken bouillon</string>
+    <string name="meanIngredients4">1/2 cup all-purpose flour, 1/4 teaspoon paprika, 1/4 teaspoon cayenne pepper, 1/4 teaspoon salt, 10 chicken wings, 1 quart oil for deep frying, 1/4 cup butter, 1/4 cup hot sauce, 1 dash ground black pepper, 1 dash garlic powder</string>
+    <string name="meanIngredients5">2 1/2 cups flour, 1/2 cup unsweetened cocoa powder, 1 teaspoon baking soda, 1/2 teaspoon salt, 1 cup butter, softened, 2 cups sugar, 4 eggs, 1 cup sour cream, 1/2 cup milk</string>
+
+    <string-array name="mealIngredients">
+        <item>@string/meanIngredients0</item>
+        <item>@string/meanIngredients1</item>
+        <item>@string/meanIngredients2</item>
+        <item>@string/meanIngredients3</item>
+        <item>@string/meanIngredients4</item>
+        <item>@string/meanIngredients5</item>
+    </string-array>
+
+    <string-array name="mealCalories">
+        <item>267 Cal.</item>
+        <item>40 Cal.</item>
+        <item>646 Cal.</item>
+        <item>397 Cal.</item>
+        <item>364 Cal.</item>
+        <item>276 Cal.</item>
+    </string-array>
+
+    <string-array name="mealRecipes">
+        <item>https://ifoodreal.com/thai-salmon/</item>
+        <item>https://www.allrecipes.com/recipe/278124/everything-deviled-eggs/?internalSource=staff%20pick&amp;referringId=76&amp;referringContentType=Recipe%20Hub</item>
+        <item>https://www.allrecipes.com/recipe/11808/creamy-pesto-shrimp/?internalSource=hub%20recipe&amp;referringId=430&amp;referringContentType=Recipe%20Hub</item>
+        <item>https://www.allrecipes.com/recipe/12974/butternut-squash-soup/?internalSource=hub%20recipe&amp;referringId=16369&amp;referringContentType=Recipe%20Hub</item>
+        <item>https://www.allrecipes.com/recipe/24087/restaurant-style-buffalo-chicken-wings/?internalSource=hub%20recipe&amp;referringId=663&amp;referringContentType=Recipe%20Hub&amp;clickId=cardslot%207</item>
+        <item>https://www.allrecipes.com/recipe/212429/red-velvet-cupcakes/?internalSource=streams&amp;referringId=276&amp;referringContentType=Recipe%20Hub&amp;clickId=st_recipes_mades</item>
+    </string-array>
+
+    <string name="alertDialogTitle">Delete Confirmation</string>
+    <string name="alertDialogMessage">Proceed to Remove Meal?</string>
+    <string name="alertDialogN">No</string>
+    <string name="alertDialogP">Yes</string>
+    <string name="headerAddItem">New Meal</string>
+    <string name="foodTitleLabel">Food Name:</string>
+    <string name="foodDescriptionLabel">Description:</string>
+    <string name="ingredientsLabel">Ingredients:</string>
+    <string name="caloriesLabel">Calories:</string>
+    <string name="recipeLabel" translatable="false">URL:</string>
+    <string name="submitBtnText">Add to List</string>
+
+
+</resources>

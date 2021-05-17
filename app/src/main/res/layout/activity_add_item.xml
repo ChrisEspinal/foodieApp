@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        tools:context=".AddItemActivity">
+
+        <TextView
+            android:id="@+id/headerAddItem_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:text="@string/headerAddItem"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/foodTitleLabel_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="end"
+            android:layout_marginBottom="25dp"
+            android:paddingVertical="@dimen/padding"
+            android:text="@string/foodTitleLabel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/foodTitle_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:inputType="textLongMessage"
+            android:paddingVertical="@dimen/padding"
+            android:importantForAutofill="no" tools:targetApi="o" />
+
+
+        <TextView
+            android:id="@+id/foodDescriptionLabel_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="end"
+            android:layout_marginBottom="25dp"
+            android:paddingVertical="@dimen/padding"
+            android:text="@string/foodDescriptionLabel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/foodDescription_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="textLongMessage|text"
+            android:paddingVertical="@dimen/padding"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/ingredientsLabel_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="end"
+            android:layout_marginBottom="25dp"
+            android:paddingVertical="@dimen/padding"
+            android:text="@string/ingredientsLabel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/ingredients_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textLongMessage"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:paddingVertical="@dimen/padding"
+            android:autofillHints="" tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/caloriesLabel_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="end"
+            android:layout_marginBottom="25dp"
+            android:paddingVertical="@dimen/padding"
+            android:text="@string/caloriesLabel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/calories_editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:inputType="number"
+            android:layout_gravity="fill_horizontal"
+            android:paddingVertical="@dimen/padding"
+            android:importantForAutofill="no" tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/recipeLabel_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="end"
+            android:layout_marginBottom="50dp"
+            android:paddingVertical="@dimen/padding"
+            android:text="@string/recipeLabel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/recipe_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:inputType="textLongMessage"
+            android:layout_gravity="fill_horizontal"
+            android:paddingVertical="@dimen/padding"
+            android:importantForAutofill="no" tools:targetApi="o" />
+
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="addMeal"
+            android:text="@string/submitBtnText"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+</ScrollView>

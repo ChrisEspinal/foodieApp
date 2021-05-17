@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ShowItemInfo">
+
+        <TextView
+            android:id="@+id/showMealTitle_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/showMealImage_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/showMealTitle_textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/showMealDescription_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showMealImage_imageView"
+            android:padding="10dp"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/showMealIngredients_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showMealDescription_textView"
+            android:padding="@dimen/textView_padding"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/showMealCalories_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showMealIngredients_textView"
+            android:padding="@dimen/textView_padding"
+            android:textColor="@color/design_default_color_surface"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/showMealRecipe_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showMealCalories_TextView"
+            android:onClick="onlineRecipe"
+            android:padding="@dimen/textView_padding"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
